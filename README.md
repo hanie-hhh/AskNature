@@ -10,7 +10,6 @@ A responsive and modern website that highlights the inspiration and strategies h
 - [Live Demo](#live-demo)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -48,7 +47,7 @@ Follow these instructions to run the project locally or host it online.
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/asknature.git
+   git clone https://github.com/hanie-hhh/asknature.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -64,11 +63,6 @@ Visit the live version of this project:
 
 ---
 
-## Screenshots
-### Desktop View
-![Desktop Screenshot](screenshot-desktop.png)
-
-
 Contributions are welcome! To contribute:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix:
@@ -81,9 +75,6 @@ Contributions are welcome! To contribute:
    ```
 4. Create a pull request and describe your changes.
 
----
 
-## License
-This project is licensed under the [MIT License](LICENSE).
 
  
