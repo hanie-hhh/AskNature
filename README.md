@@ -59,7 +59,7 @@ Follow these instructions to run the project locally or host it online.
 
 ## Live Demo
 Visit the live version of this project:
-[AskNature Live Site](https://hanie-hhh.github.io/ask-nature.com/)
+[AskNature Live Site](https://hanie-hhh.github.io/asknature/)
 
 ---
 
