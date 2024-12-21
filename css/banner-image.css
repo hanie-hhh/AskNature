@@ -1,0 +1,58 @@
+.banner-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+    padding-bottom: 5rem;
+    background-color: var(--color-background);
+    overflow: hidden;
+}
+
+.image-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.cow-image {
+    object-fit: cover;
+    height: 30rem;
+    width: 100%;
+    margin: 0 1.5rem;
+    border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+    .banner-image {
+        height: 80vh;
+    }
+
+    .cow-image {
+        height: 85%;
+        width: 100%;
+        margin: 0 1.5rem;
+        border-radius: 12px;
+    }
+}
+@media (max-width: 768px) {
+    .banner-image {
+        height: auto;
+        padding: 0 1.5rem 1.5rem;
+    }
+
+    .image-wrap {
+        width: 100%;
+        height: auto;
+    }
+
+    .cow-image {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+}
+

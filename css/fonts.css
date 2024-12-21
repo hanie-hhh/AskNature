@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: 'Objekt Mk1 Regular';
+    src:url('../assests/font/ObjektivMk1_Trial_Rg.woff') format('woff'),
+    url('../assests/font/ObjektivMk1_Trial_Rg.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Objektiv Mk1 Thin';
+    src: url('../assests/font/ObjektivMk1_Trial_Hair.woff') format('woff'),
+    url('../assests/font/ObjektivMk1_Trial_Hair.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Objektiv Mk1 Light';
+    src:url('../assests/font/ObjektivMk1_Trial_Lt.woff') format('woff'),
+    url('../assests/font/ObjektivMk1_Trial_Lt.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Objektiv Mk1 Medium';
+    src: url('../assests/font/ObjektivMk1_Trial_Md.woff') format('woff'),
+    url('../assests/font/ObjektivMk1_Trial_Md.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Objektiv Mk1 SemiBold';
+    src:  url('../assests/font/ObjektivMk1_Trial_SBd.woff') format('woff'),
+    url('../assests/font/ObjektivMk1_Trial_SBd.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Objektiv Mk1 Bold';
+    src: url('../assests/font/ObjektivMk1_Trial_Bd.woff') format('woff'),
+    url('../assests/font/ObjektivMk1_Trial_Bd.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Objektiv Mk1 XBold';
+    src:  url('../assests/font/ObjektivMk1_Trial_XBd.woff') format('woff'),
+    url('../assests/font/ObjektivMk1_Trial_XBd.ttf') format('truetype');;
+}
+@font-face {
+    font-family: "Oatmeal Sans";
+    src: url("https://db.onlinewebfonts.com/t/84d03e725516fadf3323a639a8a46ac8.eot");
+    src: url("https://db.onlinewebfonts.com/t/84d03e725516fadf3323a639a8a46ac8.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/84d03e725516fadf3323a639a8a46ac8.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/84d03e725516fadf3323a639a8a46ac8.ttf")format("truetype");
+}
+
+@font-face {
+    font-family: "Ivy Journal";
+    src: url('../assests/font/IvyJournal-SemiBold.woff2')format("woff2"),
+    url('../assests/font/IvyJournal-SemiBold.woff')format("woff"),
+    url('../assests/font/IvyJournal-SemiBold.ttf')format("truetype");
+}

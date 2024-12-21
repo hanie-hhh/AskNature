@@ -1,0 +1,25 @@
+:root {
+    --font-Regular: 'Objektiv Mk1 Regular', sans-serif;
+    --font-Thin: 'Objektiv Mk1 Thin', sans-serif;
+    --font-Light: 'Objektiv Mk1 Light', sans-serif;
+    --font-Medium: 'Objektiv Mk1 Medium', sans-serif;
+    --font-SemiBold: 'Objektiv Mk1 SemiBold', sans-serif;
+    --font-Bold: 'Objektiv Mk1 Bold', sans-serif;
+    --font-XBold: 'Objektiv Mk1 XBold', sans-serif;
+    --font-intro-title: 'Ivy Journal', sans-serif;
+
+
+    --color-primary: white;
+    --color-secondary: black;
+    --color-hover: #fc9947;
+    --color-background:#eddfca;
+    --color-first-bg: #dbe9df;
+    --color-main-text: #f5faf6;
+    --color-second-text: #244230;
+    --color-third-text: #c0d1ce;
+
+
+    --spacing-small: 5px;
+    --spacing-medium: 20px;
+
+}

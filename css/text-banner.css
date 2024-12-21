@@ -1,0 +1,156 @@
+.hero-image{
+    width: 100%;
+}
+.text-banner {
+    background-color: var(--color-background);
+    padding: 3.5rem 1.5rem;
+    width: 100%;
+}
+
+.title-wrap {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-secondary);
+    flex-wrap: wrap;
+    padding-bottom: 0.8rem;
+}
+
+.title-wrap h2 {
+    font-size: 2rem;
+    font-family: var(--font-SemiBold), serif;
+}
+
+.details-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: var(--font-SemiBold), serif;
+}
+
+.details-button svg {
+    width: 0.7rem;
+}
+
+.details-button .icon {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.details-button .button-text {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-size: 0.7rem;
+    color: var(--color-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.details-button:hover .icon {
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.details-button:hover .button-text {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.link a {
+    color: var(--color-secondary);
+    text-decoration: none;
+    font-family: var(--font-SemiBold), serif;
+    font-size: 0.9rem;
+}
+
+.link a:hover {
+    color: var(--color-hover);
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 1px solid var(--color-secondary);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+    opacity: 0;
+}
+.details-content {
+    margin: 7rem 0;
+}
+.details.open {
+    opacity: 1;
+}
+.widont{
+    font-family: var(--font-Regular), serif;
+    font-size: 0.9rem;
+    width: 43rem;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+}
+
+@media screen and (max-width: 768px) {
+
+    .text-banner {
+        padding: 3rem 1.5rem;
+    }
+    .title-wrap {
+        padding-bottom: 0.4rem;
+    }
+    .title-wrap h2 {
+        font-size: 1.3rem;
+    }
+
+    .link a {
+        font-size: 0.8rem;
+    }
+
+    .details-content {
+        margin: 7rem 0;
+    }
+
+    .widont{
+        font-size: 0.8rem;
+        width: 26rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .title-wrap {
+        padding-bottom: 0.8rem;
+    }
+
+    .title-wrap h2 {
+        font-size: 1.2rem;
+    }
+
+    .details-button{
+        display: none;
+    }
+
+    .link a {
+        font-size: 0.8rem;
+    }
+    .details {
+        opacity: 1;
+        max-height: max-content;
+
+    }
+    .details-content {
+        margin: 1.5rem 0;
+    }
+        .widont{
+        font-size: 0.7rem;
+        }
+}

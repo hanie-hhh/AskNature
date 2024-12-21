@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-Regular), sans-serif;
+    overflow-x: hidden;
+    background-color: var(--color-first-bg);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+p{
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+

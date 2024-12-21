@@ -1,0 +1,105 @@
+
+.home-intro {
+    text-align: center;
+    color: var(--color-second-text);
+    width: 100%;
+    padding-top: 75rem;
+    padding-bottom: 8rem;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    font-size: 2.1rem;
+}
+.home-intro-title{
+    height: 12rem;
+    font-size: 0.7em;
+
+}
+.title-text {
+    line-height: 1.5;
+    font-family: var(--font-intro-title), serif;
+    padding: 2rem 0;
+}
+
+#question-ends {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typed-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 2rem;
+    background-color: var(--color-second-text);
+    animation: blink 0.75s ;
+}
+
+.balance-text{
+    font-family: var(--font-Light), serif;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 auto;
+    color: var(--color-second-text);
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    width: 100%;
+}
+
+.button-wrap {
+    margin-top: 2rem;
+}
+
+.search-button {
+    color: var(--color-second-text);
+    padding: 0.5rem 1.2rem;
+    font-family: var(--font-Medium), serif;
+    border: var(--color-second-text) 2px solid;
+    text-decoration: none;
+    font-size: 1.3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: var(--color-second-text);
+    color: var(--color-third-text);
+
+}
+
+.search-button svg {
+    margin-right: 10px;
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: var(--color-second-text);
+    transition: fill 0.1s ease;
+}
+
+.search-button:hover svg {
+    fill: var(--color-third-text);
+}
+
+@media (max-width: 768px) {
+    .home-intro {
+        padding-bottom: 3rem;
+    }
+
+        .home-intro-title {
+        height: 9rem;
+        font-size: 1rem;
+    }
+        .balance-text {
+        font-size: 1.1rem;
+            width: 100%;
+            padding: 0 1rem;
+        }
+
+    .search-button {
+        font-size: 1.1rem;
+        padding: 10px 25px;
+    }
+}
+
+
